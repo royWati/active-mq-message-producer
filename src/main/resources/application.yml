@@ -1,0 +1,11 @@
+server:
+  port: 7001
+
+spring:
+  activemq:
+    in-memory: false
+    pool:
+      enabled: false
+
+active-mq-url : tcp://localhost:61616
+active-mq-queue : simple-jms-queue
